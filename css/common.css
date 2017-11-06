@@ -1,0 +1,80 @@
+body {
+    background-color: #c4c4c4;
+    color: #4f4f4f;
+}
+
+li a {
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+
+a:hover {
+    text-decoration: none;
+    color: beige;
+}
+
+nav.navbar-inverse {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+nav div.container {
+    width: 100%;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:link {
+    background-color: inherit;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #9d9d9d;
+}
+
+.block {
+    margin: 7px -8px 14px -8px;
+    background-color: #e6e6e6;
+}
+
+#name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #e6228a;
+    margin-top: 11px;
+    margin-left: 40px;
+}
+
+#menu {
+    margin-top: 3px;
+}
+
+#menuButton {
+    margin-top: 0;
+    color: orangered;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    #name span {
+        line-height: 55px;
+    }
+
+    #name {
+        margin-left: 20px;
+    }
+
+    .block {
+        margin: 7px -5px 14px -5px;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #menu {
+        padding: 0;
+    }
+}

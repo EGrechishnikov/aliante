@@ -1,0 +1,45 @@
+.block {
+    margin-bottom: 0;
+}
+
+#contacts {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+#map {
+    padding: 10px;
+}
+
+iframe {
+    width: 100%;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    /*iframe {*/
+        /*width: 100%;*/
+    /*}*/
+}
+
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /*iframe {*/
+        /*width: 400px;*/
+    /*}*/
+}
+
+/* md */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /*iframe {*/
+        /*width: 550px;*/
+    /*}*/
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    /*iframe {*/
+        /*width: 700px;*/
+    /*}*/
+}

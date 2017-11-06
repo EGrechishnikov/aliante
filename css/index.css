@@ -1,0 +1,198 @@
+#footer span a {
+    color: inherit;
+}
+
+#footer span a:hover {
+    color: #e6228a;
+}
+
+#time {
+    margin-left: 7%;
+}
+
+.orange {
+    font-weight: bold;
+    color: orangered !important;
+}
+
+.pink {
+    color: #e6228a;
+}
+
+.orange:hover {
+    color: #e6228a !important;
+}
+
+.address {
+    font-size: 16px !important;
+}
+
+.delim {
+    height: 10px;
+    background-color: #c4c4c4;
+}
+
+.greeting {
+    margin-left: -30px;
+    opacity: 0;
+}
+
+#image {
+    margin-top: -30px;
+    opacity: 0;
+    vertical-align: middle;
+}
+
+#logoWrapper {
+    height: 410px;
+}
+
+#content {
+    margin-top: -13px;
+    background-image: url(../img/back.png);
+    height: 410px;
+}
+
+#greetingDiv {
+    margin-top: 40px;
+}
+
+#phones {
+    text-align: center;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+#footer {
+    margin-top: 20px;
+    opacity: 0;
+    min-height: 127px;
+}
+
+#footer-wrapper {
+    padding-left: 40px;
+    margin-top: -15px;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: #e6e6e6;
+    min-height: 200px;
+}
+
+#contacts {
+    margin-top: 13px;
+    min-height: 40px;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    #content {
+        height: 510px;
+    }
+
+    #content div {
+        margin-left: 10px;
+    }
+
+    #logoWrapper {
+        height: 300px;
+    }
+
+    #footer-wrapper {
+        padding-left: 15px;
+    }
+
+    #footer {
+        font-size: 110%;
+    }
+
+    .not-for-mobile {
+        display: none;
+    }
+
+    #greetingDiv {
+        margin-top: 0;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    #content, #logoWrapper {
+        height: 360px;
+    }
+
+    .address {
+        font-size: 13px !important;
+    }
+
+    #footer-wrapper {
+        padding-left: 30px;
+    }
+
+    #footer {
+        font-size: 120%;
+    }
+
+    #greetingDiv {
+        margin-top: 20px;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font-size: 2.6em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    .address {
+        font-size: 14px !important;
+    }
+
+    #footer-wrapper {
+        padding-left: 50px;
+    }
+
+    #footer {
+        font-size: 113%;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    #greetingDiv {
+        margin-top: 30px;
+    }
+
+    #footer {
+        font-size: 130%;
+    }
+}
