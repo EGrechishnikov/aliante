@@ -1,13 +1,10 @@
-#footer span a {
-    color: inherit;
-}
-
-#footer span a:hover {
-    color: #e6228a;
-}
-
 #time {
     margin-left: 7%;
+}
+
+.glyphicon {
+    padding-right: 5px;
+    margin-left: -20px;
 }
 
 .orange {
@@ -66,6 +63,7 @@
 }
 
 #footer {
+    font-family: serif;
     margin-top: 20px;
     opacity: 0;
     min-height: 127px;
@@ -95,6 +93,14 @@
         font-size: 1.5em;
     }
 
+    #time {
+        margin-left: 0;
+    }
+
+    .glyphicon {
+        margin-left: 1%;
+    }
+
     #content {
         height: 510px;
     }
@@ -109,6 +115,8 @@
 
     #footer-wrapper {
         padding-left: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     #footer {
