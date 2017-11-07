@@ -7,6 +7,11 @@
     margin-left: -20px;
 }
 
+.glyphicon-earphone {
+    padding-right: 0;
+    margin-right: -10px;
+}
+
 .orange {
     font-weight: bold;
     color: orangered !important;
@@ -57,9 +62,11 @@
 #phones {
     text-align: center;
     height: 60px;
-    font-size: 20px;
     font-weight: bold;
     line-height: 65px;
+    color: #1a4666;
+    font-style: italic;
+    font-size: 21px;
 }
 
 #footer {
@@ -81,6 +88,7 @@
 #contacts {
     margin-top: 13px;
     min-height: 40px;
+    padding-bottom: 10px;
 }
 
 /* xs < 768 */

@@ -1,17 +1,36 @@
+iframe {
+    width: 100%;
+}
+
 .block {
     margin-bottom: 0;
 }
 
 #contacts {
     text-align: center;
-    font-size: 20px;
-    padding: 10px 10px;
+    font-size: 23px;
+    padding: 15px 10px;
+    line-height: 32px;
+    font-style: italic;
+    color: #1a4666;
 }
 
 #map {
     padding: 10px;
 }
 
-iframe {
-    width: 100%;
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    #contacts {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 0;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #contacts {
+        font-size: 19px;
+    }
 }
