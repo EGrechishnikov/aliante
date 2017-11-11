@@ -14,9 +14,9 @@ function showLogo() {
         });
 }
 
-let flag = false;
+var flag = false;
 function showGreeting() {
-    let element = $('.greeting')[!flag ? 0 : 1];
+    var element = $('.greeting')[!flag ? 0 : 1];
     $(element).animate(
         {
             marginLeft: "+=30",
