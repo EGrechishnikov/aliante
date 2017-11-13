@@ -103,6 +103,7 @@
 
     #time {
         margin-left: 0;
+        margin-top: 5px;
     }
 
     .glyphicon {
@@ -128,7 +129,7 @@
     }
 
     #footer {
-        font-size: 110%;
+        font-size: 115%;
     }
 
     .not-for-mobile {
@@ -168,6 +169,11 @@
 
     #greetingDiv {
         margin-top: 20px;
+    }
+
+    #contacts {
+        margin-top: 5px;
+        padding-left: 20px;
     }
 }
 
