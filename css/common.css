@@ -1,6 +1,11 @@
 body {
-    background-color: #c4c4c4;
+    /*background-color: #c4c4c4;*/
+    background-color: #d9bfd1;
     color: #4f4f4f;
+}
+
+.active {
+    color: #d9bfd1 !important;
 }
 
 li a {
