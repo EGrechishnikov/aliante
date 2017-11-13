@@ -1,0 +1,25 @@
+h1 {
+    margin-bottom: 6px;
+}
+
+small {
+    font-size: 19px;
+    font-style: normal;
+}
+
+li {
+    font-size: 20px;
+}
+
+.block {
+    margin-bottom: 0;
+}
+
+.wrapper {
+    margin: 10px 20px;
+}
+
+#header {
+    color: #1a4666;
+    font-style: italic;
+}

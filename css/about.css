@@ -22,3 +22,13 @@ a:hover {
     color: #1a4666;
     font-style: italic;
 }
+
+@media screen and (max-width: 767px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    li, p {
+        font-size: 18px;
+    }
+}
