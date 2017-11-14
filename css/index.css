@@ -12,17 +12,8 @@
     margin-right: -10px;
 }
 
-.orange {
-    font-weight: bold;
-    color: orangered !important;
-}
-
 .pink {
     color: #e6228a;
-}
-
-.orange:hover {
-    color: #e6228a !important;
 }
 
 .address {
@@ -169,7 +160,7 @@
 }
 
 /* mobile*/
-@media screen and (min-width: 360px) and (max-width: 450px) {
+@media screen and (min-width: 361px) and (max-width: 450px) {
     h1 {
         font-size: 30px;
     }
