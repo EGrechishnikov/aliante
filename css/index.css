@@ -91,6 +91,12 @@
     padding-bottom: 10px;
 }
 
+@media screen and (max-width: 450px) {
+    #phones {
+        font-size: 18px;
+    }
+}
+
 /* xs < 768 */
 @media screen and (max-width: 767px) {
     h1 {
