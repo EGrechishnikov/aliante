@@ -77,7 +77,7 @@
 }
 
 #footer-wrapper {
-    padding-left: 40px;
+    padding-left: 30px;
     margin-top: -15px;
     margin-left: 7px;
     margin-right: 7px;
@@ -91,10 +91,91 @@
     padding-bottom: 10px;
 }
 
-/* small mobile*/
-@media screen and (max-width: 450px) {
+/*@media screen and (max-width: 330px) {*/
+    /*h1 {*/
+        /*font-size: 25px;*/
+    /*}*/
+
+    /*h3.greeting {*/
+        /*margin-left: 0;*/
+    /*}*/
+
+    /*.not-for-small-mobile, .not-for-mobile {*/
+        /*display: none !important;*/
+    /*}*/
+
+    /*#greetingDiv {*/
+        /*margin-top: 0;*/
+    /*}*/
+/*}*/
+
+@media screen /*and (min-width: 330px)*/ and (max-width: 360px) {
+    .not-for-mobile {
+        display: none;
+    }
+
+    h3.greeting {
+        margin-left: 0;
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .address {
+        font-size: 14px !important;
+        margin: 0;
+        padding-left: 5px;
+    }
+
+    .glyphicon-earphone {
+        margin-left: 0;
+    }
+
+    #greetingDiv {
+        margin-top: 0;
+    }
+
+    #phones {
+        font-size: 16px;
+    }
+
+    #logo {
+        margin-left: 6%;
+    }
+
+    #logoWrapper {
+        height: 200px;
+    }
+
+    #content {
+        height: 463px;
+    }
+
+    #time {
+        margin: 0;
+    }
+
+    #footer-wrapper {
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #footer {
+        margin-top: 10px;
+    }
+}
+
+/* mobile*/
+@media screen and (min-width: 360px) and (max-width: 450px) {
     h1 {
         font-size: 30px;
+    }
+
+    h3.greeting {
+        margin-left: 0;
     }
 
     .not-for-mobile {
@@ -146,13 +227,17 @@
 }
 
 /* xs < 768 */
-@media screen and (min-width: 451px) and (max-width: 767px)  {
+@media screen and (min-width: 450px) and (max-width: 768px)  {
     h1 {
         font-size: 2.5em;
     }
 
     h3 {
-        font-size: 1.5em;
+        font-size: 1.4em;
+    }
+
+    h3.greeting {
+        margin-left: 0;
     }
 
     #time {
@@ -166,10 +251,6 @@
 
     #content {
         height: 510px;
-    }
-
-    #content div {
-        margin-left: 10px;
     }
 
     #logoWrapper {
@@ -193,10 +274,14 @@
     #greetingDiv {
         margin-top: 0;
     }
+
+    #logo {
+        margin-left: 6%;
+    }
 }
 
 /* sm */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     h1 {
         font-size: 2.4em;
     }
@@ -232,7 +317,7 @@
 }
 
 /* md */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     h1 {
         font-size: 2.7em;
     }
@@ -270,5 +355,6 @@
 
     #footer {
         font-size: 130%;
+        line-height: 23px;
     }
 }

@@ -1,5 +1,4 @@
 body {
-    /*background-color: #c4c4c4;*/
     background-color: #d9bfd1;
     color: #4f4f4f;
 }
@@ -26,6 +25,7 @@ nav.navbar-inverse {
     border: none;
     border-radius: 0;
     margin-bottom: 0;
+    min-width: 322px;
 }
 
 nav div.container {

@@ -17,15 +17,26 @@ function showLogo() {
 var flag = false;
 function showGreeting() {
     var element = $('.greeting')[!flag ? 0 : 1];
-    $(element).animate(
-        {
-            marginLeft: "+=30",
-            opacity: "1"
-        },
-        {
-            duration: 1000,
-            complete: !flag ? showGreeting : showFooter
-        });
+    if(window.screen.width < 769 && flag) {
+        $(element).animate(
+            {
+                opacity: "1"
+            },
+            {
+                duration: 1000,
+                complete: showFooter
+            });
+    } else {
+        $(element).animate(
+            {
+                marginLeft: "+=30",
+                opacity: "1"
+            },
+            {
+                duration: 1000,
+                complete: !flag ? showGreeting : showFooter
+            });
+    }
     flag = true;
 }
 
