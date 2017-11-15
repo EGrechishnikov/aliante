@@ -5,7 +5,7 @@ iframe {
 h1 {
     text-align: center;
     font-size: 24px;
-    padding: 0;
+    padding: 0 5px;
     margin-top: 10px;
     line-height: 32px;
     font-style: italic;
@@ -21,18 +21,24 @@ h1 {
     padding: 10px;
 }
 
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
+
 /* xs < 768 */
-@media screen and (max-width: 767px) {
-    #contacts {
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    h1 {
         font-size: 16px;
         line-height: 24px;
-        padding: 10px 0;
     }
 }
 
 /* sm */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    #contacts {
+    h1 {
         font-size: 19px;
     }
 }
