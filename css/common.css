@@ -1,5 +1,6 @@
 body {
-    background-color: #d9bfd1;
+    /*background-color: #d9bfd1;*/
+    background-color: #e2cfdd;
     color: #4f4f4f;
 }
 
@@ -60,7 +61,7 @@ nav div.container {
 }
 
 .block {
-    margin: 7px -8px 14px -8px;
+    margin: 7px -7px 14px -7px;
     background-color: #e6e6e6;
 }
 

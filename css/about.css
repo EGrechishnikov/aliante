@@ -1,9 +1,28 @@
 li, p {
-    font-size: 22px;
+    font-size: 23px;
 }
 
 a {
     color: inherit;
+}
+
+h1 {
+    color: #1a4666;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 h3, ul li {
@@ -24,11 +43,6 @@ a:hover {
 
 .block {
     margin-bottom: 0;
-}
-
-#header h1 {
-    color: #1a4666;
-    font-style: italic;
 }
 
 @media screen and (max-width: 767px) {
