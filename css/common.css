@@ -1,11 +1,6 @@
 body {
-    /*background-color: #d9bfd1;*/
     background-color: #e2cfdd;
     color: #4f4f4f;
-}
-
-.active {
-    color: #d9bfd1 !important;
 }
 
 li a {
@@ -33,6 +28,19 @@ nav.navbar-inverse {
 
 nav div.container {
     width: 100%;
+}
+
+.footer-cont {
+    margin-top: 5px;
+}
+
+.active {
+    color: #d9bfd1 !important;
+}
+
+.social {
+    width: 35px;
+    margin-left: 10px;
 }
 
 .nav {
@@ -69,6 +77,14 @@ nav div.container {
     display: none;
 }
 
+#contacts {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #b3b3b3;
+    font-size: 16px;
+    width: 100%;
+}
+
 #name {
     font-weight: 700;
     font-size: 24px;
@@ -86,10 +102,68 @@ nav div.container {
     color: orangered;
 }
 
+@media screen and (max-width: 360px) {
+    #name span {
+        line-height: 55px;
+    }
+
+    #vk {
+        margin-top: -41px;
+        width: 32px;
+    }
+
+    #inst {
+        margin-top: -7px;
+        width: 32px;
+    }
+
+    #contacts {
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    #contacts .col-sm-2 {
+        padding-left: 37px;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 450px) {
+    #name span {
+        line-height: 55px;
+    }
+
+    #contacts {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    #contacts .col-sm-2 {
+        padding-left: 37px;
+    }
+
+    #vk {
+        margin-top: -50px;
+    }
+
+    #inst {
+        margin-top: -10px;
+    }
+}
+
 /* xs < 768 */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
     .for-mobile {
         display: inherit;
+    }
+
+    .social {
+        margin-top: -20px;
+        width: 30px;
+    }
+
+    #contacts {
+        padding-left: 10px;
+        font-size: 14px;
     }
 
     #name span {
@@ -109,5 +183,16 @@ nav div.container {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     #menu {
         padding: 0;
+    }
+
+    #contacts {
+        font-size: 14px;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #contacts {
+        font-size: 15px;
     }
 }
