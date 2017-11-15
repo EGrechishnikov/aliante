@@ -11,13 +11,15 @@ li a {
     font-size: 17px;
 }
 
-a {
+a, a:hover, a:link {
     text-decoration: none;
+}
+
+a {
     color: #8a8a8a;
 }
 
 a:hover {
-    text-decoration: none;
     color: beige;
 }
 
@@ -32,12 +34,20 @@ nav div.container {
     width: 100%;
 }
 
-.orange {
+.nav {
+    font-weight: bold;
+}
+
+.orange, .orange:link {
     font-weight: bold;
     color: orangered !important;
 }
 
 .orange:hover {
+    color: #e6228a !important;
+}
+
+.pink, .pink:link {
     color: #e6228a !important;
 }
 

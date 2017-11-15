@@ -12,10 +12,6 @@
     margin-right: -10px;
 }
 
-.pink {
-    color: #e6228a;
-}
-
 .address {
     font-size: 16px !important;
 }
@@ -81,24 +77,6 @@
     min-height: 40px;
     padding-bottom: 10px;
 }
-
-/*@media screen and (max-width: 330px) {*/
-    /*h1 {*/
-        /*font-size: 25px;*/
-    /*}*/
-
-    /*h3.greeting {*/
-        /*margin-left: 0;*/
-    /*}*/
-
-    /*.not-for-small-mobile, .not-for-mobile {*/
-        /*display: none !important;*/
-    /*}*/
-
-    /*#greetingDiv {*/
-        /*margin-top: 0;*/
-    /*}*/
-/*}*/
 
 @media screen /*and (min-width: 330px)*/ and (max-width: 360px) {
     .not-for-mobile {
