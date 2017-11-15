@@ -1,6 +1,4 @@
-$(document).ready(function () {
-    showLogo();
-});
+window.onload = showLogo;
 
 function showLogo() {
     $('#image').animate(
