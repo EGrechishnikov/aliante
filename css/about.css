@@ -6,7 +6,13 @@ a {
     color: inherit;
 }
 
+img {
+    border: 5px solid beige;
+    width: 100%;
+}
+
 h1 {
+    margin-top: 10px;
     color: #1a4666;
     font-style: italic;
     font-weight: bold;
@@ -16,6 +22,7 @@ h1 {
 
 h2 {
     font-weight: bold;
+    margin-top: 10px;
 }
 
 h3 {
@@ -33,6 +40,10 @@ ul.nav li {
     font-family: sans-serif;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 a:hover {
     color: #e6228a;
 }
@@ -45,7 +56,12 @@ a:hover {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 767px) {
+#image-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
     h3 {
         font-size: 19px;
         line-height: 22px;
@@ -53,5 +69,82 @@ a:hover {
 
     li, p {
         font-size: 18px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .not-for-mobile {
+        display: none;
+    }
+
+    .wrapper {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    h3 {
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    li, p {
+        font-size: 18px;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    li {
+        line-height: 27px;
+    }
+
+    li, p, h3 {
+        font-size: 20px;
+    }
+
+    ul {
+        padding-left: 30px;
+    }
+
+    .wrapper {
+        margin: 5px;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    li {
+        line-height: 25px;
+    }
+
+    li, p, h3 {
+        font-size: 20px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .wrapper {
+        margin: 10px;
     }
 }
