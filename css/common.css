@@ -3,6 +3,10 @@ body {
     color: #4f4f4f;
 }
 
+footer {
+    margin-top: 8px;
+}
+
 li a {
     font-size: 17px;
 }
