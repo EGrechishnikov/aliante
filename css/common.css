@@ -35,7 +35,7 @@ nav div.container {
 }
 
 .footer-cont {
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .active {
@@ -77,16 +77,17 @@ nav div.container {
     background-color: #ebebeb;
 }
 
-.for-mobile {
+.for-mobile, .footer-hide {
     display: none;
 }
 
 #contacts {
     margin-top: 10px;
-    margin-bottom: 10px;
+    min-height: 43px;
     color: #b3b3b3;
-    font-size: 16px;
+    font-size: 15px;
     width: 100%;
+    text-align: center;
 }
 
 #name {
@@ -111,16 +112,6 @@ nav div.container {
         line-height: 55px;
     }
 
-    #vk {
-        margin-top: -41px;
-        width: 32px;
-    }
-
-    #inst {
-        margin-top: -7px;
-        width: 32px;
-    }
-
     #contacts {
         padding-left: 10px;
         font-size: 13px;
@@ -128,6 +119,11 @@ nav div.container {
 
     #contacts .col-sm-2 {
         padding-left: 37px;
+    }
+
+    #image-links {
+        margin-top: 10px;
+        margin-bottom: 12px;
     }
 }
 
@@ -137,37 +133,29 @@ nav div.container {
     }
 
     #contacts {
-        padding-left: 10px;
-        font-size: 14px;
+        font-size: 15px;
     }
 
-    #contacts .col-sm-2 {
-        padding-left: 37px;
-    }
-
-    #vk {
-        margin-top: -50px;
-    }
-
-    #inst {
-        margin-top: -10px;
+    #image-links {
+        margin-top: 10px;
+        margin-bottom: 12px;
     }
 }
 
 /* xs < 768 */
-@media screen and (min-width: 450px) and (max-width: 768px) {
+@media screen and (min-width: 451px) and (max-width: 768px) {
     .for-mobile {
         display: inherit;
     }
 
     .social {
-        margin-top: -20px;
-        width: 30px;
+        width: 35px;
+        padding-bottom: 7px;
     }
 
     #contacts {
-        padding-left: 10px;
-        font-size: 14px;
+        margin-top: 12px;
+        font-size: 16px;
     }
 
     #name span {
@@ -181,6 +169,15 @@ nav div.container {
     .block {
         margin: 7px -5px 14px -5px;
     }
+
+    .footer-cont {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    #image-links {
+        margin-bottom: 10px;
+    }
 }
 
 /* sm */
@@ -189,8 +186,21 @@ nav div.container {
         padding: 0;
     }
 
+    #image-links {
+        margin-top: 5px;
+    }
+
     #contacts {
-        font-size: 14px;
+        min-height: 60px;
+        margin-top: 15px;
+    }
+
+    .footer-cont {
+        margin-top: 0;
+    }
+
+    .footer-hide {
+        display: inline;
     }
 }
 
