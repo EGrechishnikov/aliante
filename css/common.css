@@ -49,6 +49,7 @@ nav div.container {
 
 .nav {
     font-weight: bold;
+    padding-left: 20px;
 }
 
 .orange, .orange:link {
@@ -98,6 +99,10 @@ nav div.container {
     margin-left: 40px;
 }
 
+#name span {
+    margin-left: 5%;
+}
+
 #menu {
     margin-top: 3px;
 }
@@ -105,6 +110,7 @@ nav div.container {
 #menuButton {
     margin-top: 0;
     color: orangered;
+    margin-right: 6%;
 }
 
 @media screen and (max-width: 360px) {
