@@ -47,6 +47,11 @@ img {
     margin: 12px 20px;
 }
 
+#banner img {
+    width: inherit;
+    height: inherit;
+}
+
 #header {
     color: #1a4666;
     font-style: italic;

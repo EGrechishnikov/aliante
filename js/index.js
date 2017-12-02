@@ -13,9 +13,10 @@ function showLogo() {
 }
 
 var flag = false;
+
 function showGreeting() {
     var element = $('.greeting')[!flag ? 0 : 1];
-    if(window.innerWidth < 769 && flag) {
+    if (window.innerWidth < 769 && flag) {
         $(element).animate(
             {
                 opacity: "1"
