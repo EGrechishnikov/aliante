@@ -3,27 +3,27 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
 		<loc>http://aliante.by/</loc>
-		<lastmod>2017-11-21T08:50:33+01:00</lastmod>
+		<lastmod>2017-12-04T19:15:22+01:00</lastmod>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://aliante.by/index.html</loc>
-		<lastmod>2017-11-21T08:50:34+01:00</lastmod>
+		<lastmod>2017-12-04T19:15:24+01:00</lastmod>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://aliante.by/product.html</loc>
-		<lastmod>2017-11-21T08:50:35+01:00</lastmod>
+		<lastmod>2017-12-04T19:15:24+01:00</lastmod>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://aliante.by/contacts.html</loc>
-		<lastmod>2017-11-21T08:50:35+01:00</lastmod>
+		<lastmod>2017-12-04T19:15:25+01:00</lastmod>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://aliante.by/about.html</loc>
-		<lastmod>2017-11-21T08:50:36+01:00</lastmod>
+		<lastmod>2017-12-04T19:15:26+01:00</lastmod>
 		<priority>1.0</priority>
 	</url>
 </urlset>

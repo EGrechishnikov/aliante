@@ -1,20 +1,21 @@
 $(document).ready(init);
 
 function init() {
-    if(localStorage.getItem('isBannerShowed') === null &&
-        compareDate(localStorage.getItem('dateOfShow'))) {
+    if(isReadyToShowBanner()) {
         setTimeout(function() {
             showBanner();
             document.getElementById("close-button").onclick = hideBanner;
         }, 200);
+    } else {
+        document.getElementById("banner").style = "display: none";
     }
 }
 
-function compareDate(date) {
-    var oldDate = new Date(date);
+function isReadyToShowBanner() {
+    var oldDate = new Date(localStorage.getItem('dateOfShow'));
     var newDate = new Date();
-    if(oldDate.getHours() < newDate.getHours() &&
-    oldDate.getMinutes() < newDate.getMinutes()) {
+    if(oldDate.getDate() !== newDate.getDate() || (oldDate.getHours() < newDate.getHours() &&
+    oldDate.getMinutes() < newDate.getMinutes())) {
         return true;
     } else {
         return false;
@@ -32,6 +33,5 @@ function showBanner() {
 
 function hideBanner() {
     document.getElementById("banner").style = "display: none";
-    localStorage.setItem('isBannerShowed', true);
     localStorage.setItem('dateOfShow', new Date());
 }
