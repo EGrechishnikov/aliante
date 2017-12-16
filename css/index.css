@@ -30,9 +30,9 @@
 
 #phones {
     text-align: center;
-    height: 60px;
     font-weight: bold;
-    line-height: 65px;
+    line-height: 30px;
+    padding-top: 10px;
     color: #1a4666;
     font-style: italic;
     font-size: 21px;
