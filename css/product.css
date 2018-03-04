@@ -37,6 +37,8 @@ img {
     border: 1px solid #cfcfcf;
     border-radius: 10px;
     text-align: center;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
 }
 
 .column:hover {

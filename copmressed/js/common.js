@@ -1,0 +1,1 @@
+function footerInit(){var o=8,e=$("footer").height(),t=o+e,i=window.innerHeight-t>document.body.scrollHeight?window.innerHeight-t+o:document.body.scrollHeight+o;$("footer").css("top",i)}$(document).ready(footerInit),$(window).resize(footerInit);
