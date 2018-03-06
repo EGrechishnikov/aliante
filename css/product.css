@@ -23,8 +23,16 @@ ul {
     padding-left: 0;
 }
 
+ul#wallpaper li {
+    display: inline;
+}
+
 img {
     width: 14px;
+}
+
+.wallpaper-dot {
+    width: 6px;
 }
 
 .block {
@@ -65,8 +73,8 @@ img {
 }
 
 #main-content {
-    margin-top: 6%;
-    margin-bottom: 8%;
+    margin-top: 4%;
+    margin-bottom: 6%;
 }
 
 #main-block {
