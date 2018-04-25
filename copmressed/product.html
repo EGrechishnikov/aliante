@@ -1,42 +1,67 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang=ru>
 <head>
-    <meta charset="UTF-8">
+    <meta charset=UTF-8>
     <title>Наша продукция</title>
-    <meta name="description" content="Обои, ЛДФ-декор, Европласт, Orac decor, Декоративная штукатурка, Жидкие обои.
+    <meta name=description content="Обои, ЛДФ-декор, Европласт, Orac decor, Декоративная штукатурка, Жидкие обои.
           Все это вы найдете в нашем салоне обоев Алианте в Могилеве.">
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/common.css" type="text/css">
-    <link rel="stylesheet" href="css/product.css" type="text/css">
+    <link rel=icon type=image/png href=img/favicon.png>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel=stylesheet href=css/bootstrap.min.css type="text/css"/>
+    <link rel=stylesheet href=css/common.css type="text/css"/>
+    <link rel=stylesheet href=css/product.css type="text/css"/>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
-    <div class="container">
-        <div class="row">
-            <div id="name" class="navbar-header col-md-4 col-sm-3">
-                <a class="pink" href="index.html"><span>Aliante</span></a>
-                <button id="menuButton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-                    Меню
+    <div class=container>
+        <div class=row>
+            <div id=name class="navbar-header col-md-3 col-sm-3">
+                <a class=pink href=index.html><span>Aliante</span></a>
+                <button id=menuButton type=button class="navbar-toggle collapsed" data-toggle=collapse data-target=#menu aria-expanded=false>
+                    <span class=icon-bar></span>
+                    <span class=icon-bar></span>
+                    <span class=icon-bar></span>
                 </button>
             </div>
-            <div id="menu" class="col-md-9 col-sm-7 collapse navbar-collapse">
+            <div id=menu class="col-md-9 col-sm-7 collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Главная</a></li>
-                    <li class="active"><a href="product.html">Продукция</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
-                    <li><a href="about.html">О нас</a></li>
+                    <li><a href=index.html>Главная</a></li>
+                    <li class=active><a href=product.html>Продукция</a></li>
+                    <li><a href=contacts.html>Контакты</a></li>
+                    <li><a href=about.html>О нас</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
-<div class="container-fluid">
+<div id=popup class="modal fade">
+    <div class=modal-dialog>
+        <div class=modal-content>
+            <div class=modal-header>
+                <button type=button class=close data-dismiss=modal aria-hidden=true>&times;</button>
+                <h4 class=modal-title>
+                    Мы в
+                    <a href=https://www.instagram.com/oboi_aliante_mogilev/ target=_blank>Instagram</a>!
+                </h4>
+            </div>
+            <div class=modal-body>
+                <a href=https://www.instagram.com/oboi_aliante_mogilev/ target=_blank>
+                    <img src=img/instagram-popup.svg alt=Инстаграм>
+                </a>
+                <p>
+                    <a href=https://www.instagram.com/oboi_aliante_mogilev/ target=_blank>
+                        Заходите и подписывайтесь!
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=container-fluid>
     <div class="row block">
-        <div class="wrapper">
-            <div id="header">
+        <div class=wrapper>
+            <div id=header>
                 <h1>
                     Продукция
                 </h1>
@@ -46,159 +71,214 @@
             </div>
         </div>
     </div>
-    <div id="main-block" class="block">
-        <div class="container">
-            <div id="main-content" class="row wrapper">
-                <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 content">
-                    <div class="column">
-                        <h3>
-                            ЛДФ-декор
-                        </h3>
-                        <img src="img/dot.svg" alt="Разделитель">
-                        <h3>
-                            Европласт
-                        </h3>
-                        <img src="img/dot.svg" alt="Разделитель">
-                        <h3>
-                            Orac decor
-                        </h3>
-                        <img src="img/dot.svg" alt="Разделитель">
-                        <h3>
-                            Краска:
-                        </h3>
-                        <ul>
-                            <li>
-                                San Marco
-                            </li>
-                        </ul>
-                        <img src="img/dot.svg" alt="Разделитель">
-                        <h3>
-                            ﻿Фотопанно
-                        </h3>
-                        <h3>
-                            ﻿Affresco
-                        </h3>
+    <div id=main-block class=block>
+        <div class=container>
+            <div id=main-content>
+                <div class="row wrapper">
+                    <div class="col-md-12 col-md-offset-0 col-xs-10 col-xs-offset-1 content">
+                        <div class=column>
+                            <h3>
+                                Обои:
+                            </h3>
+                            <ul id=wallpaper>
+                                <li>
+                                    BN International
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    1838 wallcoverings
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Atlas
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Loymina
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Limonta
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    A.Rossi
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Cristiana Masi
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Rasch
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Grandeco
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Q.Parete
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Arthouse
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Lutece
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    ﻿A.Decori
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    ﻿Milassa
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    ﻿Origin
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Midbec
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Borastapeter
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Marburg
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Ugepa
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Cole & Son
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Lutece
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    Sirpi
+                                    <img class=wallpaper-dot src=img/dot.svg alt=Разделитель>
+                                </li>
+                                <li>
+                                    A.S. Creation
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 content">
-                    <div class="column">
-                        <h3>
-                            Обои:
-                        </h3>
-                        <ul>
-                            <li>
-                                BN International
-                            </li>
-                            <li>
-                                1838 wallcoverings
-                            </li>
-                            <li>
-                                Atlas
-                            </li>
-                            <li>
-                                Loymina
-                            </li>
-                            <li>
-                                Limonta
-                            </li>
-                            <li>
-                                A.Rossi
-                            </li>
-                            <li>
-                                Cristiana Masi
-                            </li>
-                            <li>
-                                Rasch
-                            </li>
-                            <li>
-                                Grandeco
-                            </li>
-                            <li>
-                                Q.Parete
-                            </li>
-                            <li>
-                                Arthouse
-                            </li>
-                            <li>
-                                Lutece
-                            </li>
-                            <li>
-                                ﻿A.Decori
-                            </li>
-                            <li>
-                                ﻿Milassa
-                            </li>
-                            <li>
-                                ﻿Origin
-                            </li>
-                        </ul>
+                <div class="row wrapper">
+                    <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 content">
+                        <div class=column>
+                            <h3>
+                                ЛДФ-декор
+                            </h3>
+                            <img src=img/dot.svg alt=Разделитель>
+                            <h3>
+                                Европласт
+                            </h3>
+                            <img src=img/dot.svg alt=Разделитель>
+                            <h3>
+                                Orac decor
+                            </h3>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 content">
-                    <div class="column">
-                        <h3>
-                            Декоративная штукатурка:
-                        </h3>
-                        <ul>
-                            <li>
-                                ﻿San Marco
-                            </li>
-                        </ul>
-                        <img src="img/dot.svg" alt="Разделитель">
-                        <h3>
-                            Жидкие обои:
-                        </h3>
-                        <ul>
-                            <li>
-                                Silk plaster
-                            </li>
-                            <li>
-                                Биопласт
-                            </li>
-                        </ul>
-                        <img src="img/dot.svg" alt="Разделитель">
-                        <h3>
-                            ﻿Искусственный камень
-                        </h3>
+                    <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 content">
+                        <div class=column>
+                            <h3>
+                                Краска:
+                            </h3>
+                            <ul>
+                                <li>
+                                    San Marco
+                                </li>
+                            </ul>
+                            <img src=img/dot.svg alt=Разделитель>
+                            <h3>
+                                ﻿Фотопанно
+                            </h3>
+                            <h3>
+                                ﻿Affresco
+                            </h3>
+                            <img src=img/dot.svg alt=Разделитель>
+                            <h3>
+                                ﻿Искусственный камень
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 content">
+                        <div class=column>
+                            <h3>
+                                Декоративная штукатурка:
+                            </h3>
+                            <ul>
+                                <li>
+                                    ﻿San Marco
+                                </li>
+                            </ul>
+                            <img src=img/dot.svg alt=Разделитель>
+                            <h3>
+                                Жидкие обои:
+                            </h3>
+                            <ul>
+                                <li>
+                                    Silk plaster
+                                </li>
+                                <li>
+                                    Биопласт
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<footer class="container-fluid">
+<footer class=container-fluid>
     <div class="row navbar-inverse">
-        <div id="contacts">
+        <div id=contacts>
             <div class="col-sm-4 col-xs-12 footer-cont">
                 <span class="glyphicon glyphicon-home"></span>
-                <strong>Наш адрес:<br class="footer-hide">
-                    <span style="white-space: nowrap">Могилев, пр-т. Мира, 25г</span></strong>
+                <strong>Наш адрес:<br class=footer-hide>
+                    <span style=white-space:nowrap>Могилев, пр-т. Мира, 25г</span></strong>
             </div>
             <div class="col-sm-5 col-xs-12 footer-cont">
                 <span class="glyphicon glyphicon-time"></span>
-                <strong>Время работы:<br class="footer-hide">
-                    <span style="white-space: nowrap">пн-пт c 10 до 20, сб-вс с 10 до 18</span></strong>
+                <strong>Время работы:<br class=footer-hide>
+                    <span style=white-space:nowrap>пн-пт c 10 до 20, сб-вс с 10 до 18</span></strong>
             </div>
-            <div id="image-links" class="col-sm-3 col-xs-12">
-                <a href="https://vk.com/oboi_aliante" target="_blank">
-                    <img class="social" src="img/vk.svg" alt="Вконтакте">
+            <div id=image-links class="col-sm-3 col-xs-12">
+                <a href=https://vk.com/oboi_aliante target=_blank>
+                    <img class=social src=img/vk.svg alt=Вконтакте>
                 </a>
-                <a href="https://www.instagram.com/oboi_aliante_mogilev/" target="_blank">
-                    <img class="social" src="img/instagram.svg" alt="Инстаграм">
+                <a href=https://www.instagram.com/oboi_aliante_mogilev/ target=_blank>
+                    <img class=social src=img/instagram.svg alt=Инстаграм>
                 </a>
-                <a href="contacts.html" target="_blank">
-                    <img class="social" src="img/placeholder.svg" alt="Контакты">
+                <a href=contacts.html target=_blank>
+                    <img class=social src=img/placeholder.svg alt=Контакты>
                 </a>
             </div>
         </div>
     </div>
 </footer>
-<script>!function(e,t,a){(t[a]=t[a]||[]).push(function(){try{t.yaCounter46870230=new Ya.Metrika({id:46870230,clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0})}catch(e){}});var c=e.getElementsByTagName("script")[0],n=e.createElement("script"),r=function(){c.parentNode.insertBefore(n,c)};n.type="text/javascript",n.async=!0,n.src="https://mc.yandex.ru/metrika/watch.js","[object Opera]"==t.opera?e.addEventListener("DOMContentLoaded",r,!1):r()}(document,window,"yandex_metrika_callbacks");</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/46870230" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/common-min.js"></script>
-<script async src="js/bootstrap.min.js"></script>
+<script>(function(g,a,i){(a[i]=a[i]||[]).push(function(){try{a.yaCounter46870230=new Ya.Metrika({id:46870230,clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true})}catch(c){}});var h=g.getElementsByTagName("script")[0],b=g.createElement("script"),e=function(){h.parentNode.insertBefore(b,h)};b.type="text/javascript";b.async=true;b.src="https://mc.yandex.ru/metrika/watch.js";if(a.opera=="[object Opera]"){g.addEventListener("DOMContentLoaded",e,false)}else{e()}})(document,window,"yandex_metrika_callbacks");</script>
+<noscript>
+    <div><img src=https://mc.yandex.ru/watch/46870230 style=position:absolute;left:-9999px alt=""/></div>
+</noscript>
+<script src=js/jquery-3.2.1.min.js></script>
+<script src=js/bootstrap.min.js></script>
+<script src=js/common.js></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110539813-1"></script>
-<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-110539813-1");</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","UA-110539813-1");</script>
 </body>
 </html>
