@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #e2cfdd;
+    background-color: #e2cfddcc;
     color: #4f4f4f;
 }
 
@@ -131,7 +131,9 @@ nav div.container {
 #menuButton {
     margin-top: -33px;
     color: orangered;
-    margin-right: 6%;
+    position: absolute;
+    right: 6%;
+    z-index: 10000;
 }
 
 #popup {
@@ -182,6 +184,22 @@ nav div.container {
     top: 12px;
     font-weight: bold;
     font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    #menu {
+        text-align: left;
+    }
+
+    .nav.navbar-nav {
+        margin-top: 60px;
+        padding-left: 40px;
+        float: none;
+    }
+
+    .navbar-nav>li {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 360px) {
