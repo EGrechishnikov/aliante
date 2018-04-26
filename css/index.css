@@ -34,12 +34,11 @@
     line-height: 30px;
     padding-top: 10px;
     color: #1a4666;
-    font-style: italic;
     font-size: 21px;
+    font-family: Gilroy, sans-serif;
 }
 
 #footer {
-    font-family: serif;
     margin-top: 20px;
     opacity: 0;
     min-height: 127px;

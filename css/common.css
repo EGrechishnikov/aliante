@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy.otf');
+}
+
 body {
     background-color: #e2cfdd;
     color: #4f4f4f;
@@ -35,6 +40,19 @@ nav div.container {
     width: 100%;
 }
 
+.navbar-nav>li,
+.navbar-nav {
+    float: none;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+}
+
+.navbar-collapse {
+    width: 100%;
+}
+
 .footer-cont {
     margin-top: 8px;
 }
@@ -50,7 +68,6 @@ nav div.container {
 
 .nav {
     font-weight: bold;
-    padding-left: 20px;
 }
 
 .orange, .orange:link {
@@ -97,7 +114,9 @@ nav div.container {
     font-size: 24px;
     color: #e6228a;
     margin-top: 9px;
-    margin-left: 50px;
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
 
 #name span {
@@ -106,10 +125,11 @@ nav div.container {
 
 #menu {
     margin-top: 3px;
+    text-align: center;
 }
 
 #menuButton {
-    margin-top: 0;
+    margin-top: -33px;
     color: orangered;
     margin-right: 6%;
 }
@@ -223,13 +243,6 @@ nav div.container {
     #contacts {
         margin-top: 12px;
         font-size: 16px;
-    }
-
-    /*#name span {*/
-    /*line-height: 55px;*/
-    /*}*/
-    #name {
-        margin-left: 20px;
     }
 
     .block {
