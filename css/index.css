@@ -46,11 +46,11 @@
 
 #footer-wrapper {
     padding-left: 25px;
-    margin-top: -5px;
     margin-left: 8px;
     margin-right: 8px;
-    background-color: #e6e6e6;
+    background-color: #f2f2f2;
     min-height: 200px;
+    margin-bottom: 7px;
 }
 
 @media screen and (max-width: 360px) {
@@ -254,7 +254,7 @@
     }
 
     #footer {
-        font-size: 130%;
+        font-size: 120%;
         line-height: 23px;
     }
 }

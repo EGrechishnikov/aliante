@@ -1,0 +1,95 @@
+h1 {
+    margin-bottom: 6px;
+    margin-top: 0;
+    font-weight: bold;
+    font-family: Gilroy, sans-serif;
+    font-size: 40px;
+}
+
+small {
+    font-size: 19px;
+    font-style: normal;
+    color: #4f4f4f;
+}
+
+.header-wrapper {
+    margin: 12px 20px;
+}
+
+.catalog-wrapper {
+    padding: 10px 0;
+    background-image: url(../img/back2.png);
+}
+
+.item {
+    height: 350px;
+    color: #f2f2f2;
+    margin: 10px;
+    border: 5px solid #f2f2f2;
+    border-radius: 10px;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+    background-size: cover;
+    background: center no-repeat;
+}
+
+.description {
+    background-color: #00000060;
+    height: 340px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.item:hover {
+    box-shadow: 4px 4px 15px 3px #8c8c8c;
+    cursor: pointer;
+}
+
+.text {
+    margin-top: 120px;
+    text-shadow: 4px 3px 12px #000000b8;
+}
+
+.text h2 {
+    margin-bottom: 20px;
+    font-size: 31px;
+    font-family: Gilroy, sans-serif;
+    text-transform: uppercase;
+}
+
+#header {
+    color: #1a4666e6;
+    text-align: center;
+}
+
+#wallpaper {
+    background-image: url('../img/back/wallpaper-back-min.jpg');
+}
+
+#decor {
+    background-image: url('../img/back/decor-back-min.jpg');
+}
+
+#photopanno {
+    background-image: url('../img/back/photopanno-back-min.jpg');
+}
+
+#affresco {
+    background-image: url('../img/back/affresco-back-min.jpg');
+}
+
+#stone {
+    background-image: url('../img/back/stone-back-min.jpg');
+}
+
+#stucco {
+    background-image: url('../img/back/stucco-back-min.jpg');
+}
+
+#fluid {
+    background-image: url('../img/back/fluid-back-min.jpg');
+}
+
+#paint {
+    background-image: url('../img/back/paint-back-min.jpg');
+}

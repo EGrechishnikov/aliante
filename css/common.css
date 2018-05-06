@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('/fonts/Gilroy.otf');
+    src: url('../fonts/Gilroy.otf');
 }
 
 body {
@@ -38,6 +38,10 @@ nav.navbar-inverse {
 
 nav div.container {
     width: 100%;
+}
+
+.mt-5 {
+    margin-top: 5px;
 }
 
 .navbar-nav>li,
@@ -92,8 +96,8 @@ nav div.container {
 }
 
 .block {
-    margin: 7px -7px 14px -7px;
-    background-color: #ebebeb;
+    margin: 8px -7px;
+    background-color: #f2f2f2;
 }
 
 .for-mobile, .footer-hide {
@@ -264,7 +268,7 @@ nav div.container {
     }
 
     .block {
-        margin: 7px -5px 14px -5px;
+        margin: 7px -5px;
     }
 
     .footer-cont {
