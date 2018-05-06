@@ -8,7 +8,7 @@
           content="Хотите купить обои для стен? Нужно помочь с дизайном интерьера в Могилеве?
           Звоните и приезжайте к нам, в магазин обоев Алианте! Мы ценим каждого клиента!">
     <meta name="yandex-verification" content="820d0bd3304d7d9a"/>
-    <meta name="google-site-verification" content="XkBdYgfRcPiaeX4miz5cYw4w3wpr0EJob2BOh29nIZE" />
+    <meta name="google-site-verification" content="XkBdYgfRcPiaeX4miz5cYw4w3wpr0EJob2BOh29nIZE"/>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,18 +34,22 @@
             <div id="menu" class="col-md-12 collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html">Главная</a></li>
-                    <!--<li class="dropdown">-->
-                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Продукция <span class="caret"></span></a>-->
-                    <!--<ul class="dropdown-menu">-->
-                    <!--<li><a href="#">Обои</a></li>-->
-                    <!--<li><a href="#">Декор</a></li>-->
-                    <!--<li><a href="#">Клеи</a></li>-->
-                    <!--<li><a href="#">Иное</a></li>-->
-                    <!--</ul>-->
-                    <!--</li>-->
-                    <li><a href="product.html">Продукция</a></li>
-                    <!--<li><a class="orange" href="#">Акции!</a></li>-->
-                    <!--<li><a href="#">Статьи</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Каталог
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="catalog.html">Все</a></li>
+                            <li><a href="catalog/wallpaper.html">Обои</a></li>
+                            <li><a href="catalog/decor.html">Лепнина</a></li>
+                            <li><a href="catalog/photopanno.html">Фотопанно</a></li>
+                            <li><a href="catalog/affresco.html">Affresco</a></li>
+                            <li><a href="catalog/stone.html">Искусственный камень</a></li>
+                            <li><a href="catalog/stucco.html">Декоративная штукатурка</a></li>
+                            <li><a href="catalog/fluid.html">Жидкие обои</a></li>
+                            <li><a href="catalog/paint.html">Краска</a></li>
+                        </ul>
+                    </li>
                     <li><a href="contacts.html">Контакты</a></li>
                     <li><a href="about.html">О нас</a></li>
                 </ul>
@@ -132,31 +136,38 @@
 <!-- Yandex.Metrika counter -->
 <script>
     (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
+        (w[c] = w[c] || []).push(function () {
             try {
                 w.yaCounter46870230 = new Ya.Metrika({
-                    id:46870230,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
+                    id: 46870230,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true
                 });
-            } catch(e) { }
+            } catch (e) {
+            }
         });
 
         var n = d.getElementsByTagName("script")[0],
             s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
+            f = function () {
+                n.parentNode.insertBefore(s, n);
+            };
         s.type = "text/javascript";
         s.async = true;
         s.src = "https://mc.yandex.ru/metrika/watch.js";
 
         if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
+        } else {
+            f();
+        }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/46870230" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/46870230" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/index.js"></script>
@@ -165,7 +176,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110539813-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-110539813-1');
