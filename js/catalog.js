@@ -1,6 +1,6 @@
 'use strict';
 
-var logoPath = 'img/wallpaper/';
+var logoPath = 'img/logo/';
 var countPerPage = 10;
 var startIndex = 0;
 

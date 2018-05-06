@@ -9,8 +9,9 @@ function footerInit() {
     var margin = 8;
     var footerHeight = $('footer').height();
     var totalElementHeight = margin + footerHeight;
-    if (window.innerHeight - totalElementHeight > document.body.scrollHeight) {
-        $('footer').css('top', (window.innerHeight - totalElementHeight + margin));
+    var result = window.innerHeight - totalElementHeight;
+    if (result > document.body.scrollHeight) {
+        $('footer').css('top', (result + margin));
     }
 }
 

@@ -25,6 +25,14 @@ a {
     color: #8a8a8a;
 }
 
+nav {
+    box-shadow: 0 4px 20px 3px #22222299;
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
 a:hover {
     color: beige;
 }
@@ -40,12 +48,12 @@ nav div.container {
     width: 100%;
 }
 
-.mt-5 {
-    margin-top: 5px;
+.first-element {
+    margin-top: 53px;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
+.mt-5 {
+    margin-top: 5px;
 }
 
 .dropdown-menu {

@@ -2,9 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Краска</title>
+    <title>Краска San Marco</title>
+    <meta name="description" content="Обои, ЛДФ-декор, Европласт, Orac decor, Декоративная штукатурка, Жидкие обои.
+          Все это вы найдете в нашем салоне обоев Алианте в Могилеве.">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
 </head>
 <body>
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="row">
+            <div id="name" class="navbar-header col-md-3 col-sm-3">
+                <div>
+                    <a class="pink" href="../index.html"><span>Aliante</span></a>
+                </div>
+                <button id="menuButton" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#menu" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="menu" class="col-md-12 collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Каталог
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../catalog.html">Все</a></li>
+                            <li><a href="wallpaper.html">Обои</a></li>
+                            <li><a href="decor.html">Лепнина</a></li>
+                            <li><a href="photopanno.html">Фотопанно</a></li>
+                            <li><a href="affresco.html">Affresco</a></li>
+                            <li><a href="stone.html">Искусственный камень</a></li>
+                            <li><a href="stucco.html">Декоративная штукатурка</a></li>
+                            <li><a href="fluid.html">Жидкие обои</a></li>
+                            <li class="active"><a href="paint.html">Краска</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../contacts.html">Контакты</a></li>
+                    <li><a href="../about.html">О нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
 <h1>Краска</h1>
+<footer class="container-fluid">
+    <div class="row navbar-inverse">
+        <div id="contacts">
+            <div class="col-sm-4 col-xs-12 footer-cont">
+                <span class="glyphicon glyphicon-home"></span>
+                <strong>Наш адрес:<br class="footer-hide">
+                    <span style="white-space: nowrap">Могилев, пр-т. Мира, 25г</span></strong>
+            </div>
+            <div class="col-sm-5 col-xs-12 footer-cont">
+                <span class="glyphicon glyphicon-time"></span>
+                <strong>Время работы:<br class="footer-hide">
+                    <span style="white-space: nowrap">пн-пт c 10 до 20, сб-вс с 10 до 18</span></strong>
+            </div>
+            <div id="image-links" class="col-sm-3 col-xs-12">
+                <a href="https://vk.com/oboi_aliante" target="_blank">
+                    <img class="social" src="../img/vk.svg" alt="Вконтакте">
+                </a>
+                <a href="https://www.instagram.com/oboi_aliante_mogilev/" target="_blank">
+                    <img class="social" src="../img/instagram.svg" alt="Инстаграм">
+                </a>
+                <a href="../contacts.html" target="_blank">
+                    <img class="social" src="../img/placeholder.svg" alt="Контакты">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/common.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110539813-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110539813-1');
+</script>
+<!-- Yandex.Metrika counter -->
+<script>
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter46870230 = new Ya.Metrika({
+                    id: 46870230,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true
+                });
+            } catch (e) {
+            }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () {
+                n.parentNode.insertBefore(s, n);
+            };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/46870230" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>
