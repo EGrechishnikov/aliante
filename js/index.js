@@ -1,19 +1,4 @@
-$(document).ready(function() {
-    footerInit();
-    showLogo();
-});
-
-$(window).resize(footerInit);
-
-function footerInit() {
-    var margin = 8;
-    var footerHeight = $('footer').height();
-    var totalElementHeight = margin + footerHeight;
-    var result = window.innerHeight - totalElementHeight;
-    if (result > document.body.scrollHeight) {
-        $('footer').css('top', (result + margin));
-    }
-}
+$(document).ready(showLogo);
 
 function showLogo() {
     $('#image').animate(
