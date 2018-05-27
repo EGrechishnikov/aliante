@@ -25,7 +25,7 @@ small {
     background-image: url(../img/back2.png);
 }
 
-.item {
+.list-item {
     height: 350px;
     color: #f2f2f2;
     margin: 10px auto;
@@ -44,7 +44,7 @@ small {
     padding: 10px 0;
 }
 
-.item:hover {
+.list-item:hover {
     box-shadow: 4px 4px 15px 3px #8c8c8c;
     cursor: pointer;
 }
@@ -70,36 +70,44 @@ small {
     text-align: center;
 }
 
-#wallpaper {
+.wallpaper {
     background-image: url('../img/back/wallpaper-back-min.jpg');
 }
 
-#decor {
+.decor {
     background-image: url('../img/back/decor-back-min.jpg');
 }
 
-#photopanno {
+.photopanno {
     background-image: url('../img/back/photopanno-back-min.jpg');
 }
 
-#affresco {
+.affresco {
     background-image: url('../img/back/affresco-back-min.jpg');
 }
 
-#stone {
+.stone {
     background-image: url('../img/back/stone-back-min.jpg');
 }
 
-#stucco {
+.stucco {
     background-image: url('../img/back/stucco-back-min.jpg');
 }
 
-#fluid {
+.fluid {
     background-image: url('../img/back/fluid-back-min.jpg');
 }
 
-#paint {
+.paint {
     background-image: url('../img/back/paint-back-min.jpg');
+}
+
+.carousel-control {
+    background-image: none !important;
+}
+
+.carousel-indicators {
+    bottom: 30px;
 }
 
 @media screen and (min-width: 1600px) {

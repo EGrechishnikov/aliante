@@ -1,0 +1,11 @@
+#header {
+    margin-top: 30px;
+    color: #1a4666e6;
+    text-align: center;
+}
+
+.carousel-wrapper {
+    width: auto;
+    max-width: 800px;
+    padding-bottom: 20px;
+}
