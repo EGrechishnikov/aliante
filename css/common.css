@@ -101,9 +101,22 @@ nav div.container {
     color: #d9bfd1 !important;
 }
 
-.social {
+.social,
+#vk-logo {
     width: 35px;
     margin-left: 10px;
+}
+
+.social:hover path,
+.social:hover circle,
+#vk-logo:hover circle {
+    fill: #cccccc !important;
+}
+
+.social:active path,
+.social:active circle,
+#vk-logo:active circle {
+    fill: #6f6f6f !important;
 }
 
 .nav {
@@ -142,7 +155,7 @@ nav div.container {
 
 #contacts {
     margin-top: 10px;
-    min-height: 43px;
+    min-height: 45px;
     color: #b3b3b3;
     font-size: 15px;
     width: 100%;
