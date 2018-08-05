@@ -8,6 +8,7 @@ h1 {
 
 h5 {
     padding: 0 10px;
+    font-size: 15px !important;
 }
 
 small {
@@ -98,8 +99,8 @@ small {
     background-image: url('../img/back/fluid-back-min.jpg');
 }
 
-.paint {
-    background-image: url('../img/back/paint-back-min.jpg');
+.panels-3d {
+    background-image: url('../img/back/3d-panels-back-min.jpg');
 }
 
 .carousel-control {
