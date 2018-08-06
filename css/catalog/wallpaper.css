@@ -7,6 +7,10 @@
     width: 100%;
 }
 
+.wrapper {
+    padding: 0 10%;
+}
+
 #header {
     margin-top: 55px;
 }
