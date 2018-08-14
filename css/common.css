@@ -313,7 +313,7 @@ nav div.container {
 
 /* xs < 768 */
 @media screen and (min-width: 451px) and (max-width: 768px) {
-    .social {
+    .social, #vk-logo {
         width: 35px;
         padding-bottom: 7px;
     }

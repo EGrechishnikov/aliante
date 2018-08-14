@@ -1,3 +1,8 @@
+h3 {
+    font-family: Gilroy, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #444444;
+}
+
 .carousel-control {
     opacity: 1;
 }
@@ -22,6 +27,19 @@
     font-size: 17px;
     color: #3e3e3e;
     padding-bottom: 20px;
+}
+
+.text ul {
+    padding-left: 0;
+}
+
+.text li {
+    font-size: 17px;
+    color: #3e3e3e;
+}
+
+.brands li {
+    list-style: none;
 }
 
 .return-button {

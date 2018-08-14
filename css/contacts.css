@@ -26,12 +26,29 @@ p {
     margin-bottom: 8px;
 }
 
-#map-wrapper {
+#contacts-wrapper {
     margin-top: -8px;
 }
 
-#map {
-    padding: 10px;
+#mogilev {
+    background-image: url('../img/back/mogilev-back.jpg');
+}
+
+#minsk {
+    background-image: url('../img/back/misk-back.jpg');
+}
+
+.city {
+    height: 380px;
+    background-size: cover;
+    border: 5px solid #f2f2f2;
+    border-radius: 10px;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+}
+
+.mv-10 {
+    margin: 10px 0;
 }
 
 @media screen and (max-width: 400px) {
