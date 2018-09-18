@@ -77,8 +77,12 @@ p {
     text-transform: uppercase;
 }
 
-#mogilev h2 {
+.city h2 {
     padding-top: 20px;
+}
+
+#map-wrapper {
+    margin-top: -8px;
 }
 
 @media screen and (max-width: 400px) {

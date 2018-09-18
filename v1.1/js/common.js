@@ -1,4 +1,4 @@
-$(document).ready(popupInit);
+window.onload = popupInit;
 
 function popupInit() {
     var showingDate = JSON.parse(localStorage.getItem('popupShowingDate'));

@@ -34,7 +34,7 @@ nav {
 }
 
 a:hover {
-    color: beige;
+    color: #444444;
 }
 
 nav.navbar-inverse {
@@ -96,7 +96,16 @@ nav div.container {
 }
 
 .footer-cont {
-    margin-top: 8px;
+    margin: 8px 0 15px 0;
+}
+
+.footer-cont a {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.footer-cont a:hover {
+    color: white;
 }
 
 .active {
@@ -290,10 +299,6 @@ nav div.container {
         margin-top: 10px;
         margin-bottom: 12px;
     }
-
-    #banner {
-        width: 80vw;
-    }
 }
 
 @media screen and (min-width: 361px) and (max-width: 450px) {
@@ -305,10 +310,6 @@ nav div.container {
         margin-top: 10px;
         margin-bottom: 12px;
     }
-
-    #banner {
-        width: 70vw;
-    }
 }
 
 /* xs < 768 */
@@ -316,10 +317,6 @@ nav div.container {
     .social, #vk-logo {
         width: 35px;
         padding-bottom: 7px;
-    }
-
-    #banner {
-        width: 60vw;
     }
 
     #contacts {
