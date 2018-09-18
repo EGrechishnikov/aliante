@@ -112,24 +112,6 @@ nav div.container {
     color: #d9bfd1 !important;
 }
 
-.social,
-#vk-logo {
-    width: 35px;
-    margin-left: 10px;
-}
-
-.social:hover path,
-.social:hover circle,
-#vk-logo:hover circle {
-    fill: #cccccc !important;
-}
-
-.social:active path,
-.social:active circle,
-#vk-logo:active circle {
-    fill: #6f6f6f !important;
-}
-
 .nav {
     font-weight: bold;
 }
@@ -314,11 +296,6 @@ nav div.container {
 
 /* xs < 768 */
 @media screen and (min-width: 451px) and (max-width: 768px) {
-    .social, #vk-logo {
-        width: 35px;
-        padding-bottom: 7px;
-    }
-
     #contacts {
         margin-top: 12px;
         font-size: 16px;
