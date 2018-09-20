@@ -1,4 +1,0 @@
-User-agent: *
-
-Host: http://aliante.by
-Sitemap: http://aliante.by/sitemap.xml
