@@ -39,7 +39,7 @@ small {
 }
 
 .description {
-    background-color: #00000078;
+    background-color: rgba(0, 0, 0, 0.47);
     height: 340px;
     border-radius: 8px;
     padding: 10px 0;
@@ -52,7 +52,7 @@ small {
 
 .text {
     margin-top: 120px;
-    text-shadow: 4px 3px 13px #000000d6;
+    text-shadow: 4px 3px 13px rgba(0, 0, 0, 0.84);
 }
 
 .text h2 {
