@@ -1,109 +1,109 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--	created with www.mysitemapgenerator.com	-->
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-	<url>
-		<loc>http://aliante.by/</loc>
-		<lastmod>2018-09-21T16:02:33+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/index.html</loc>
-		<lastmod>2018-09-21T16:02:33+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/catalog.html</loc>
-		<lastmod>2018-09-21T16:02:33+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/catalog/wallpaper.html</loc>
-		<lastmod>2018-09-21T16:02:34+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/catalog/decor.html</loc>
-		<lastmod>2018-09-21T16:02:34+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/catalog/photopanno.html</loc>
-		<lastmod>2018-09-21T16:02:35+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/catalog/affresco.html</loc>
-		<lastmod>2018-09-21T16:02:35+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/catalog/stone.html</loc>
-		<lastmod>2018-09-21T16:02:35+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/catalog/stucco.html</loc>
-		<lastmod>2018-09-21T16:02:36+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/catalog/fluid.html</loc>
-		<lastmod>2018-09-21T16:02:36+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/catalog/3d-panels.html</loc>
-		<lastmod>2018-09-21T16:02:37+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/contacts.html</loc>
-		<lastmod>2018-09-21T16:02:37+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/contacts/minsk.html</loc>
-		<lastmod>2018-09-21T16:02:38+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/contacts/mogilev.html</loc>
-		<lastmod>2018-09-21T16:02:39+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/about.html</loc>
-		<lastmod>2018-09-21T16:02:39+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/attaches/Ultrawood.pdf</loc>
-		<lastmod>2018-09-21T16:02:40+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/attaches/Orac_Decor.pdf</loc>
-		<lastmod>2018-09-21T16:02:41+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/attaches/Orac_Decor_Modern.pdf</loc>
-		<lastmod>2018-09-21T16:02:41+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/attaches/EVROPLAST_INT_rus_web.pdf</loc>
-		<lastmod>2018-09-21T16:02:42+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/attaches/EVROPLAST_int_OBJECTS.pdf</loc>
-		<lastmod>2018-09-21T16:02:43+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>http://aliante.by/attaches/affresco.pdf</loc>
-		<lastmod>2018-09-21T16:02:43+01:00</lastmod>
-		<priority>0.8</priority>
-	</url>
+<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://aliante.by/</loc>
+	<lastmod>2018-09-29T18:08:01+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://aliante.by/index.html</loc>
+	<lastmod>2018-09-29T18:08:02+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://aliante.by/catalog.html</loc>
+	<lastmod>2018-09-29T18:08:02+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://aliante.by/catalog/wallpaper.html</loc>
+	<lastmod>2018-09-29T18:08:03+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/catalog/decor.html</loc>
+	<lastmod>2018-09-29T18:08:03+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/catalog/photopanno.html</loc>
+	<lastmod>2018-09-29T18:08:04+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/catalog/affresco.html</loc>
+	<lastmod>2018-09-29T18:08:04+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/catalog/stone.html</loc>
+	<lastmod>2018-09-29T18:08:04+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/catalog/stucco.html</loc>
+	<lastmod>2018-09-29T18:08:05+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/catalog/fluid.html</loc>
+	<lastmod>2018-09-29T18:08:05+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/catalog/3d-panels.html</loc>
+	<lastmod>2018-09-29T18:08:06+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/contacts.html</loc>
+	<lastmod>2018-09-29T18:08:06+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://aliante.by/contacts/minsk.html</loc>
+	<lastmod>2018-09-29T18:08:07+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/contacts/mogilev.html</loc>
+	<lastmod>2018-09-29T18:08:08+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/about.html</loc>
+	<lastmod>2018-09-29T18:08:08+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://aliante.by/attaches/Ultrawood.pdf</loc>
+	<lastmod>2018-09-29T18:08:09+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/attaches/Orac_Decor.pdf</loc>
+	<lastmod>2018-09-29T18:08:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/attaches/Orac_Decor_Modern.pdf</loc>
+	<lastmod>2018-09-29T18:08:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/attaches/EVROPLAST_INT_rus_web.pdf</loc>
+	<lastmod>2018-09-29T18:08:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/attaches/EVROPLAST_int_OBJECTS.pdf</loc>
+	<lastmod>2018-09-29T18:08:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://aliante.by/attaches/affresco.pdf</loc>
+	<lastmod>2018-09-29T18:08:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
