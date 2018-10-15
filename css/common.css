@@ -217,7 +217,7 @@ nav div.container {
 }
 
 .content-wrapper {
-    min-height: calc(100vh - 106px);
+    min-height: calc(100vh - 185px);
 }
 
 #popup img {
