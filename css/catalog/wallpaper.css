@@ -1,3 +1,11 @@
+#content {
+    opacity: 0;
+    min-height: 570px;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
 .logo {
     float: left;
     margin: 20px 1%;
