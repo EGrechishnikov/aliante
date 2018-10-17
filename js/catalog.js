@@ -5,6 +5,7 @@ var TYPE_FACTORY = "FACTORY";
 var TYPE_CATALOG = "CATALOG";
 var baseUrl = "https://aliante.outsystemscloud.com/ALIANTE_ADMIN/rest/api/";
 var step = 0;
+var backButton = "<span id='back' class=\"glyphicon glyphicon-chevron-left\" onclick='changeStep(0);'></span>";
 
 $(document).ready(render);
 
@@ -13,6 +14,16 @@ function render(id) {
         loadFactories();
     } else if(step === 1) {
         loadCatalogs(id);
+    }
+}
+
+function changeStep(number, id) {
+    step = number;
+    if(step === 0) {
+        $(CONTENT_SELECTOR).css('opacity', 0);
+        setTimeout(render, 500);
+    } else {
+        render(id);
     }
 }
 
@@ -43,15 +54,14 @@ function drawFactories(factories) {
     $(CONTENT_SELECTOR).html(result);
     $(CONTENT_SELECTOR).css('opacity', 1);
     $(".logo").click(function(e) {
-        step = 1;
-        render(e.currentTarget.id);
+        changeStep(1, e.currentTarget.id);
     });
 }
 
 function drawCatalogs(factoryWrapper, catalogs) {
     var factory = factoryWrapper.factory;
     setTimeout(function() {
-        var result = "<div id='concrete-factory'><h1>" + factory.Name + "</h1>";
+        var result = "<div id='concrete-factory'>" + backButton + "<h1>" + factory.Name + "</h1>";
         result += "<img src=\"data:image/png;base64," + factoryWrapper.logo + "\" alt=\"" + factory.Name + "\ logo\"><div><h3>" + factory.Description +"</h3>";
         $(catalogs).each(function(index, element) {
             console.log(element);
