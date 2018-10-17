@@ -27,7 +27,8 @@ function loadFactories() {
 
 function loadCatalogs(factoryId) {
     $(CONTENT_SELECTOR).css('opacity', 0);
-    var factory = JSON.parse(sessionStorage.getItem(TYPE_FACTORY))[factoryId];
+    var factoriesWrapper = JSON.parse(sessionStorage.getItem(TYPE_FACTORY));
+    var factory = factoriesWrapper.filter(function(e) {return e.factory.Id === Number(factoryId)})[0];
     $.get(baseUrl + "factory/" + factoryId + "/catalogs").then(function(response) {
         drawCatalogs(factory, response);
     });
@@ -48,9 +49,18 @@ function drawFactories(factories) {
 }
 
 function drawCatalogs(factoryWrapper, catalogs) {
-    var result = "<h1>" + factoryWrapper.factory.Name + "</h1>";
-    $(CONTENT_SELECTOR).html(result);
-    $(CONTENT_SELECTOR).css('opacity', 1);
+    var factory = factoryWrapper.factory;
+    setTimeout(function() {
+        var result = "<div id='concrete-factory'><h1>" + factory.Name + "</h1>";
+        result += "<img src=\"data:image/png;base64," + factoryWrapper.logo + "\" alt=\"" + factory.Name + "\ logo\"><div><h3>" + factory.Description +"</h3>";
+        $(catalogs).each(function(index, element) {
+            console.log(element);
+            result += drawElement(TYPE_CATALOG, element);
+        });
+        result += "</div></div>";
+        $(CONTENT_SELECTOR).html(result);
+        $(CONTENT_SELECTOR).css('opacity', 1);
+    }, 500);
 }
 
 function drawElement(type, element) {
@@ -58,6 +68,6 @@ function drawElement(type, element) {
         case TYPE_FACTORY :
             return "<div id='" + element.factory.Id + "' class=\"logo\"><img src=\"data:image/png;base64," + element.logo + "\" alt=\"" + element.factory.Name + "\ logo\"></div>";
         case TYPE_CATALOG :
-            return "";
+            return "<div class=\"logo\"><img src=\"data:image/png;base64," + element.logo + "\" alt=\"" + element.catalog.Description + "\"></div>";
     }
 }
