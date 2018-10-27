@@ -1,6 +1,7 @@
 "use strict";
 
 var CONTENT_SELECTOR = "#content";
+var IMAGE_WRAPPER_SELECTOR = "#image-wrapper";
 var TYPE_FACTORY = "FACTORY";
 var TYPE_CATALOG = "CATALOG";
 var baseUrl = "https://aliante.outsystemscloud.com/ALIANTE_ADMIN/rest/api/";
@@ -37,7 +38,6 @@ function loadFactories() {
     } else {
         $.get(baseUrl + "factories").then(function (response) {
             sessionStorage.setItem(TYPE_FACTORY, JSON.stringify(response));
-            console.log(response);
             drawFactories(response);
         });
     }
@@ -64,7 +64,9 @@ function loadCatalogs(factoryId) {
 function loadImages(catalogId) {
     $(CONTENT_SELECTOR).css('opacity', 0);
     $.get(baseUrl + "catalog/" + catalogId).then(drawCatalog);
-    $.get(baseUrl + "catalog/" + catalogId + "/images").then(drawImages);
+    setTimeout(function() {
+        $.get(baseUrl + "catalog/" + catalogId + "/images").then(drawImages);
+    }, 600);
 }
 
 function drawFactories(factories) {
@@ -103,16 +105,21 @@ function drawCatalog(wrapper) {
     var catalog = wrapper.catalog;
     setTimeout(function () {
         var result = "<div id='concrete-factory'>" + backButton + "<h1>" + catalog.Name + "</h1>";
-        result += "<img style='max-width: 200px;' src=\"data:image/png;base64," + wrapper.logo + "\" alt=\"" + catalog.Name + "\ logo\"><div>";
-        result += "</div></div>";
+        result += "<img style='max-width: 200px;margin-top: 10px;' src=\"data:image/png;base64," + wrapper.logo + "\" alt=\"" + catalog.Name + "\ logo\"/>";
+        result += "<div id='image-wrapper'></div></div></div>";
         $(CONTENT_SELECTOR).html(result);
         $(CONTENT_SELECTOR).css('opacity', 1);
     }, 500);
 }
 
 function drawImages(images) {
-    console.log(images);
-    //TODO
+    images = images.imageList;
+    var result = "";
+    $(images).each(function(i,e) {
+         result += "<div class='mt-30'><img src=\"data:image/png;base64," + e + "\" alt=\"Фото в интерьере\"/></div>";
+    });
+    $(IMAGE_WRAPPER_SELECTOR).html(result);
+    $(IMAGE_WRAPPER_SELECTOR).css('opacity', 1);
 }
 
 function drawElement(type, element) {

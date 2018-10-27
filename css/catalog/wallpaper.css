@@ -1,3 +1,7 @@
+img {
+    max-width: 100%;
+}
+
 #content {
     opacity: 0;
     min-height: 570px;
@@ -25,6 +29,17 @@
 
 #back:hover {
     cursor: pointer;
+}
+
+#image-wrapper {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in;
+}
+
+#image-wrapper img {
+    border: 3px solid white;
 }
 
 .catalog {
@@ -78,5 +93,11 @@
     .logo,
     .catalog {
         width: 48%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .catalog {
+        width: 80%;
     }
 }
