@@ -12,11 +12,20 @@ img {
 
 #concrete-factory {
     padding: 20px;
-    border: 1px solid #c3c3c3;
     border-radius: 14px;
     text-align: center;
-    box-shadow: 3px 2px 5px 1px #bdbdbd;
-    background-color: #eae4e4;
+    box-shadow: 1px 1px 10px 1px #bdbdbd;
+}
+
+#spinner {
+    width: 100px;
+    opacity: 0;
+    position: fixed;
+    top: 50vh;
+    left: 45%;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
 }
 
 #back {
@@ -99,5 +108,9 @@ img {
 @media screen and (max-width: 450px) {
     .catalog {
         width: 80%;
+    }
+
+    #spinner {
+        left: 40%;
     }
 }

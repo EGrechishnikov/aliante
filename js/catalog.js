@@ -2,12 +2,13 @@
 
 var CONTENT_SELECTOR = "#content";
 var IMAGE_WRAPPER_SELECTOR = "#image-wrapper";
+var SPINNER_SELECTOR = "#spinner";
 var TYPE_FACTORY = "FACTORY";
 var TYPE_CATALOG = "CATALOG";
 var baseUrl = "https://aliante.outsystemscloud.com/ALIANTE_ADMIN/rest/api/";
 var step = 0;
 var currentCatalog = 0;
-var backButton = "<span id='back' class=\"glyphicon glyphicon-chevron-left\" onclick='changeStep(step - 1, currentCatalog);'></span>";
+var backButton = "<span id='back' class=\"glyphicon glyphicon-chevron-left\" onclick='showHideSpinner(false); changeStep(step - 1, currentCatalog);'></span>";
 
 $(document).ready(render);
 
@@ -31,13 +32,19 @@ function changeStep(number, id) {
     }
 }
 
+function showHideSpinner(isShow) {
+    $(SPINNER_SELECTOR).css('opacity', isShow ? 1 :0);
+}
+
 function loadFactories() {
     var factories = sessionStorage.getItem(TYPE_FACTORY);
     if (factories) {
         drawFactories(JSON.parse(factories));
     } else {
+        showHideSpinner(true);
         $.get(baseUrl + "factories").then(function (response) {
             sessionStorage.setItem(TYPE_FACTORY, JSON.stringify(response));
+            showHideSpinner(false);
             drawFactories(response);
         });
     }
@@ -53,9 +60,11 @@ function loadCatalogs(factoryId) {
     if (factoryId === sessionStorage.getItem("currentFactory")) {
         drawCatalogs(factory, JSON.parse(sessionStorage.getItem("catalogs")));
     } else {
+        showHideSpinner(true);
         $.get(baseUrl + "factory/" + factoryId + "/catalogs").then(function (response) {
             sessionStorage.setItem("catalogs", JSON.stringify(response));
             sessionStorage.setItem("currentFactory", factoryId);
+            showHideSpinner(false);
             drawCatalogs(factory, response);
         });
     }
@@ -65,6 +74,7 @@ function loadImages(catalogId) {
     $(CONTENT_SELECTOR).css('opacity', 0);
     $.get(baseUrl + "catalog/" + catalogId).then(drawCatalog);
     setTimeout(function() {
+        showHideSpinner(true);
         $.get(baseUrl + "catalog/" + catalogId + "/images").then(drawImages);
     }, 600);
 }
@@ -113,6 +123,7 @@ function drawCatalog(wrapper) {
 }
 
 function drawImages(images) {
+    showHideSpinner(false);
     images = images.imageList;
     var result = "";
     $(images).each(function(i,e) {
