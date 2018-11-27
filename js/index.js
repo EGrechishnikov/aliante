@@ -22,8 +22,7 @@ function showGreeting() {
                 opacity: "1"
             },
             {
-                duration: 1000,
-                complete: showFooter
+                duration: 1000
             });
     } else {
         $(element).animate(
@@ -33,14 +32,8 @@ function showGreeting() {
             },
             {
                 duration: 1000,
-                complete: !flag ? showGreeting : showFooter
+                complete: !flag ? showGreeting : null
             });
     }
     flag = true;
-}
-
-function showFooter() {
-    $('#footer').animate({
-        opacity: "1"
-    }, 1200);
 }

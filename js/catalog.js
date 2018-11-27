@@ -33,7 +33,15 @@ function changeStep(number, id) {
 }
 
 function showHideSpinner(isShow) {
-    $(SPINNER_SELECTOR).css('opacity', isShow ? 1 :0);
+    if (isShow) {
+        $(SPINNER_SELECTOR).css('display', 'block');
+        $(SPINNER_SELECTOR).css('opacity', 1);
+    } else {
+        $(SPINNER_SELECTOR).css('opacity', 0);
+        setTimeout(function() {
+            $(SPINNER_SELECTOR).css('display', 'none');
+        }, 500);
+    }
 }
 
 function loadFactories() {
