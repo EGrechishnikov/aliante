@@ -197,3 +197,9 @@ video {
         display: block;
     }
 }
+
+@media screen and (min-width: 1300px) {
+    .video-container-mobile {
+        display: none;
+    }
+}

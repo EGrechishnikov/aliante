@@ -17,6 +17,17 @@ h1 {
     font-size: 24px;
 }
 
+h2 {
+    text-align: center;
+    padding: 0 5px;
+    margin-top: 10px;
+    line-height: 32px;
+    color: #444444;
+    font-weight: bold;
+    font-family: Gilroy, sans-serif;
+    font-size: 21px;
+}
+
 p {
     font-size: 16px;
 }
